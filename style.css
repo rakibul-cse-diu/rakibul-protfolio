@@ -1,0 +1,123 @@
+/* colors */
+/*
+#C601A9
+#2EB087
+#E7C371 
+*/
+
+
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+/* Univarsal styles */
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color: black;
+    padding: 15px 2% 0 2%;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Header  */
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    position: relative;
+}
+/* logo  */
+.logo-text a{
+    background-image: linear-gradient(45deg, #C601A9, #2EB087, #E7C371);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+/* Nav bar  */
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: -15px;
+    right: -93px;
+    width: 70%;
+    height: 100vh;
+    background-color: black;
+    transition: .5s;
+}
+
+.navbar-toggle{
+    width: 10%;
+}
+
+.nav-bar ul li{
+    list-style: none;
+    margin-bottom: 1em;
+    transition: .3s ease;
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid #E7C371;
+}
+
+nav ul li a{
+    font-size: 2.2em;
+    color: white;
+    padding: .1em .4em;
+}
+
+nav ul li a:hover{
+    color: #E7C371;
+}
+
+#menu-close{
+    color: red;
+    font-size: 3.2em;
+    position: absolute;
+    top: 17px;
+    right: 69px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#menu-close:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+
+#menu-open{
+    color: #2EB087;
+    font-size: 2.5em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#menu-open:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+}
