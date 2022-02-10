@@ -121,3 +121,60 @@ header{
     transform: rotate(360deg);
     transform-origin: center;
 }
+
+
+
+/* Hero section  */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/leaf.svg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.hero-text{
+    width: 44%;
+}
+
+.hero h1{
+    text-align: left;
+    font-size: 2em;
+    color: white;
+}
+
+.hero h1 span{
+    display: block;
+}
+
+
+
+
+
+/* Media Query */
+
+@media only screen and (max-width: 997px) {
+    .hero-text{
+        width: 55%;
+    }
+
+    .hero h1{
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 668px) {
+    .hero-text{
+        width: 90%;
+    }
+
+    .hero h1{
+        font-size: 1em;
+    }
+}
