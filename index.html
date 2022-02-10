@@ -13,7 +13,13 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
-<body>
+<body onload="handlePreLoader()">
+
+    <!-- preloder -->
+    <div class="preloader">
+
+    </div>
+
 
     <!-- Header section  -->
     <header>
@@ -43,9 +49,18 @@
 
     <!-- Hero section  -->
     <section class="hero">
-        <div class="hero-text" data-aos="fade-right" data-aos-duration="2000">
-            <h1><span>Hey! I am Prashant.</span>
+        <div class="hero-text">
+            <h1 data-aos="fade-right" data-aos-duration="2000"><span>Hey! I am Prashant.</span>
                 I build interactive websites that run across platforms & devices</h1>
+        </div>
+    </section>
+
+
+    <!-- Do what you love -->
+    <section class="do-quotes">
+        <div class="quote-wrap">
+            <h1 class="first-quote quote" data-aos="fade-left" data-aos-duration="2000">"DO WHAT YOU LOVE</h1>
+            <h1 class="second-quote quote" data-aos="fade-right" data-aos-duration="2000">LOVE WHAT YOU DO"</h1>
         </div>
     </section>
 
@@ -59,7 +74,6 @@
     <script>
         AOS.init();
     </script>
-
 
     <!-- custom js -->
     <script src="./main.js"></script>

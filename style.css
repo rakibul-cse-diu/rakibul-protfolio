@@ -25,13 +25,40 @@ html{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.preloader{
+    width: 100%;
+    height: 100vh;
+    background: black url('./images/preloader.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: 99999;
+}
+
 body{
     background-color: black;
     padding: 15px 2% 0 2%;
 }
+
 a{
     text-decoration: none;
 }
+
+.quote-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+.quote{
+    font-size: 2.3em;
+    background: black;
+}
+
 
 
 /* Header  */
@@ -43,6 +70,7 @@ header{
     width: 95%;
     position: relative;
 }
+
 /* logo  */
 .logo-text a{
     background-image: linear-gradient(45deg, #C601A9, #2EB087, #E7C371);
@@ -151,6 +179,27 @@ header{
 }
 
 
+/* Dp what u love quote */
+.do-quotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url('./images/do what you love.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.first-quote{
+    align-self: flex-end;
+}
+
+.second-quote{
+    align-self: flex-start;
+}
+
 
 
 
@@ -164,6 +213,10 @@ header{
     .hero h1{
         font-size: 1.5em;
     }
+
+    .quote-wrap{
+        width: 80%;
+    }
 }
 
 
@@ -176,5 +229,13 @@ header{
 
     .hero h1{
         font-size: 1em;
+    }
+
+    .quote-wrap{
+        width: 90%;
+    }
+
+    .quote{
+        font-size: 1.3em;
     }
 }
