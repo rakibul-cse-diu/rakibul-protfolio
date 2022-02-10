@@ -72,14 +72,10 @@ header{
     height: 100vh;
     position: fixed;
     top: 0px;
-    right: 0px;
+    right: -3000px;
     padding: 60px 0 0 0;
     background-color: black;
     transition: .5s;
-}
-
-.menu-items-toggle{
-    right: -1000px;
 }
 
 .nav-bar ul li{
