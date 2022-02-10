@@ -64,11 +64,13 @@ a{
 /* Header  */
 header{
     position: fixed;
+    top: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    position: relative;
+    padding-top: 10px;
+    background-color: black;
 }
 
 /* logo  */
