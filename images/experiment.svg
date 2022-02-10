@@ -1,0 +1,44 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" x="0" y="0" id="experimentsWrap" viewBox="0 0 826 454" xml:space="preserve" preserveAspectRatio="xMidYMid meet" width="1019"  height="560" >
+<a xlink:href="https://prashantsani.com/projects/book-reviews" class="expLinks" target="_blank" rel="noopener noreferrer">
+<clipPath id="exp1">
+<polygon points="217.5,298.4 109,110.3 0.4,298.4"></polygon>
+</clipPath>
+<image style="clip-path:url(#exp1);" width="300" height="300" xlink:href="images/experiments/book-review.webp" data-src="images/experiments/book-review.jpg" x="-2.392" y="85.7221"></image>
+</a>
+<a xlink:href="https://codepen.io/Prashantsani/pen/NdLZvd" class="expLinks" target="_blank" rel="noopener noreferrer">
+<clipPath id="exp2">
+<polygon points="109,66.3 243.1,298.6 377.3,66.3"></polygon>
+</clipPath>
+<image style="clip-path:url(#exp2)" width="300" height="300" xlink:href="images/experiments/ps.png" x="95.805" y="53.1319"></image>
+</a>
+<a xlink:href="http://codepen.io/Prashantsani/full/wGakx" class="expLinks" target="_blank" rel="noopener noreferrer">
+<clipPath id="exp3">
+<polygon points="201.1,413.4 309.6,225.4 418.2,413.4"></polygon>
+</clipPath>
+<image style="clip-path:url(#exp3);" width="300" height="300" xlink:href="images/experiments/charkha-in-css3.webp" data-src="images/experiments/charkha-in-css3.jpg" x="194.7787" y="186.1979"></image>
+</a>
+<a xlink:href="http://codepen.io/Prashantsani/full/FhgzA" class="expLinks" target="_blank" rel="noopener noreferrer">
+<clipPath id="exp4">
+<polygon points="319.8,204.4 437.7,0.1 555.7,204.4"></polygon>
+</clipPath>
+<image style="clip-path:url(#exp4);" width="300" height="300" xlink:href="images/experiments/vintage-TV.webp" data-src="images/experiments/vintage-TV.jpg" x="318.2836" y="-29.1972"></image>
+</a>
+<a xlink:href="http://codepen.io/Prashantsani/full/7d01d924258b19af4ae4f7b23f683553" class="expLinks" target="_blank" rel="noopener noreferrer">
+<clipPath id="exp5">
+<polygon points="597,221.6 462.8,453.9 328.7,221.6"></polygon>
+</clipPath>
+ <image style="clip-path:url(#exp5)" width="300" height="300" xlink:href="images/experiments/css-off.webp" data-src="images/experiments/css-off.jpg" x="328.1388" y="191.9148"></image>
+</a>
+<a xlink:href="http://codepen.io/Prashantsani/full/GiDHm" target="_blank" rel="noopener noreferrer" class="expLinks">
+<clipPath id="exp6">
+<polygon points="528.4,378 677,120.6 825.6,378"></polygon>
+</clipPath>
+<image style="clip-path:url(#exp6);" width="300" height="300" xlink:href="images/experiments/x-mas-2015.webp" data-src="images/experiments/x-mas-2015.jpg" x="525.634" y="109.4018"></image>
+</a>
+<polygon class="expFrame" points="217.1,298.3 108.6,110.3 0,298.3" data-svg-origin="0 110.30000305175781" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+<polygon class="expFrame" points="108.6,66.2 242.7,298.6 376.9,66.2" data-svg-origin="108.5999984741211 66.19999694824219" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+<polygon class="expFrame" points="200.7,413.3 309.3,225.3 417.8,413.3" data-svg-origin="200.6999969482422 225.3000030517578" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+<polygon class="expFrame" points="319.4,204.3 437.3,0 555.3,204.3" data-svg-origin="319.3999938964844 0" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+<polygon class="expFrame" points="596.6,221.5 462.4,453.9 328.3,221.5" data-svg-origin="328.29998779296875 221.5" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+<polygon class="expFrame" points="528,378 676.6,120.6 825.2,378" data-svg-origin="528 120.5999984741211" transform="matrix(1,0,0,1,0,0)" stroke="#E2B8AA" fill="none" stroke-width="8px"></polygon>
+</svg>
