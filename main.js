@@ -12,7 +12,6 @@ function handlePreLoader() {
 }
 
 
-
 // Toggle open handle
 function handleMenuOpen() {
     menuItems.style.right = "0px";
